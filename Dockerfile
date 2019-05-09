@@ -3,7 +3,6 @@ MAINTAINER Bradley S. Meyer
 
 RUN apt-get update && apt-get install -y \
 	dot2tex \
-	g++ \
 	gcc \
 	gfortran \
 	git \
