@@ -1,9 +1,11 @@
 FROM ubuntu:19.04
 MAINTAINER Bradley S. Meyer
 
-RUN apt-get update && apt-get install -y \
+RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
+      && apt-get install -y \
 	dot2tex \
 	gcc \
+	g++ \
 	gfortran \
 	git \
 	gsl-bin \
