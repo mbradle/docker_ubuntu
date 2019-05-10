@@ -18,5 +18,6 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	libxslt1-dev \
 	make subversion \
 	valgrind \
+	vim \
 	wget \
 	xsltproc
