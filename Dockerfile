@@ -17,6 +17,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	libxml2-utils \
 	libxslt1-dev \
 	make subversion \
+        python3-pip \
 	valgrind \
 	vim \
 	wget \
