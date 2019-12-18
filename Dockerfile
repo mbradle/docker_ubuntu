@@ -1,4 +1,4 @@
-FROM ubuntu:19.04
+FROM ubuntu:latest
 MAINTAINER Bradley S. Meyer
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
