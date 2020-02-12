@@ -17,7 +17,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	libxml2-dev \
 	libxml2-utils \
 	libxslt1-dev \
-	lualatex \
+	luatex \
 	make subversion \
         python3-pip \
 	valgrind \
