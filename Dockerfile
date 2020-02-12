@@ -7,6 +7,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	gcc \
 	g++ \
 	gfortran \
+	ghostscript \
 	git \
 	gsl-bin \
 	libboost-all-dev \
@@ -16,6 +17,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	libxml2-dev \
 	libxml2-utils \
 	libxslt1-dev \
+	lualatex \
 	make subversion \
         python3-pip \
 	valgrind \
