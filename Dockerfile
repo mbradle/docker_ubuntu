@@ -20,6 +20,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	luatex \
 	make subversion \
         python3-pip \
+	texlive-latex-extra \
 	valgrind \
 	vim \
 	wget \
