@@ -4,6 +4,7 @@ MAINTAINER Bradley S. Meyer
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
       && apt-get install -y \
 	dot2tex \
+	ffmpeg \
 	gcc \
 	g++ \
 	gfortran \
